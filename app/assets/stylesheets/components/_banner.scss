@@ -1,0 +1,13 @@
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://i1.wp.com/www.reviewsfire.com/wp-content/uploads/2018/04/How-to-watch-Netflix-in-China.jpg?fit=2000%2C1000&ssl=1);
+  height: 350px;
+  background-size: cover;
+  color: red;
+  .container {
+    font-size: 100px;
+    text-align: center;
+    background-color: white;
+    width: auto;
+    border-radius: 20px;
+  }
+}

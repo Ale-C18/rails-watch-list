@@ -1,0 +1,22 @@
+<div class="banner">
+  <div class="container">
+    <h1>Movies Lists</h1>
+  </div>
+</div>
+
+
+  <% @lists.each do |list| %>
+    <div>
+      <%= link_to list.name, list_path(list)%>
+      <%= link_to "Delete",
+        list_path(list),
+        data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}
+      %>
+      <%= link_to "Añadir una Reseña", new_list_bookmark_path(list) %>
+    </div>
+  <% end %>
+
+
+<div>
+  <%= link_to "Crear una nueva lista", new_list_path %>
+</div>

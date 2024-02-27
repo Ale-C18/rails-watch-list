@@ -1,5 +1,4 @@
 .banner {
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://i1.wp.com/www.reviewsfire.com/wp-content/uploads/2018/04/How-to-watch-Netflix-in-China.jpg?fit=2000%2C1000&ssl=1);
   height: 350px;
   background-size: cover;
   color: red;
@@ -10,4 +9,12 @@
     width: auto;
     border-radius: 20px;
   }
+}
+
+.b-index{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://i1.wp.com/www.reviewsfire.com/wp-content/uploads/2018/04/How-to-watch-Netflix-in-China.jpg?fit=2000%2C1000&ssl=1);
+}
+
+.b-show {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://th.bing.com/th/id/R.7c1edc80facdedbc1cdba8f62518ecbd?rik=MfhgWNFM6TuIww&pid=ImgRaw&r=0);
 }

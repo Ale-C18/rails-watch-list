@@ -6,6 +6,7 @@ class ListsController < ApplicationController
 
   def show
     @list = List.find(params[:id])
+    @photo = @list.photo
   end
 
   def new
@@ -31,9 +32,6 @@ class ListsController < ApplicationController
   private
 
   def list_params
-    params.require(:list).permit(:name)
-  end
-
-  def set_list
+    params.require(:list).permit(:name, :photo)
   end
 end

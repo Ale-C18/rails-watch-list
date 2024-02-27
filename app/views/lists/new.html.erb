@@ -1,6 +1,15 @@
-<h1>Create a new List</h1>
+<div class="d-flex banner b-new align-items-center justify-content-center">
+  <div class="container">
+    <h1><strong>Create a new List</strong></h1>
+  </div>
+</div>
 
-<%= simple_form_for(@list) do |f| %>
-  <%= f.input :name, label: "Nombre de la lista"%>
-  <%= f.submit %>
-<% end %>
+<div class="container my-5">
+  <div class="new_list">
+    <%= simple_form_for(@list) do |f| %>
+      <%= f.input :name, label: "Nombre de la lista"%>
+      <%= f.input :photo, as: :file %>
+      <%= f.submit %>
+    <% end %>
+  </div>
+</div>
